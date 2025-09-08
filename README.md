@@ -1,5 +1,6 @@
 # frontend-practice
 
+## mermaid integration
 ```mermaid
     gitGraph
        commit
@@ -12,4 +13,12 @@
        commit
        commit
 
+```
+
+## plantuml integration
+```plantuml
+@startuml
+    Alice -> Bob: Authentication Request
+    Bob --> Alice: Authentication Response
+@enduml
 ```
